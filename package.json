@@ -1,7 +1,7 @@
 {
   "name": "tic-tac-toe",
   "version": "0.1.0",
-  "homepage": "https://rishabkhanna27.github.io/TicTacToe/",
+  "homepage": "https://playgametictactoe.netlify.app/",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.5.0",
