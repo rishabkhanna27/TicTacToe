@@ -1,9 +1,5 @@
-@media only screen and (max-device-width: 480px) {
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: #2c3e50; /* fallback for old browsers */
-
 }
 
 .board-row:after {
@@ -14,10 +10,9 @@ body {
 
 .status {
   text-align: center;
-  font-size: 4rem;
+  font-size: 300%;
   font-weight: bold;
-  margin-left: 0.5rem;
-  margin-bottom: 1rem;
+  padding-bottom: 1%;
   color: rgb(88, 202, 206);
 
 }
@@ -25,7 +20,7 @@ body {
 .square {
   background: rgb(78, 195, 199);
   float: left;
-  font-size: 2.5rem;
+  font-size: 300%;
   font-weight: bold;
   line-height: 4rem;
   height: 5rem;
@@ -33,21 +28,21 @@ body {
   margin-top: 1%;
   text-align: center;
   width: 5rem;
-  border-radius: 6rem;
+  border-radius: 20%;
   cursor: pointer;
   
 }
 button.squarehighlight {
   float: left;
-  font-size: 2.5rem;
+  font-size: 300%;
   font-weight: bold;
-  line-height: 4rem;
-  height:  5rem;
+  line-height: 4%;
+  height: 5rem;
   margin-right: 1%;
   margin-top: 1%;
   text-align: center;
-  width:  5rem;
-  border-radius: 6rem;
+  width: 5rem;
+  border-radius: 20%;
   cursor: pointer;
   outline: none;
   background: rgb(255, 123, 0);
@@ -55,21 +50,22 @@ button.squarehighlight {
 .square:focus {
   outline: none;
 }
-.game{
-  margin-left: 50rem;
-}
+/* .game{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 .button{
   text-align: center;
-  margin-left: 5.5rem;
-  margin-top: 2rem;
+  margin-right: 1%;
+  margin-top: 2%;
 }
 .git{
-  margin-left: 3rem;
+  margin-left: 3%;
   margin-top: 2%;
 }
 .gitt{
-  margin-left: 1rem;
-  margin-top: 23rem;
+  margin-left: 1%;
+  margin-top: 21.5%;
   font-size: 2rem;
-}
 }

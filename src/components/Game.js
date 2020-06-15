@@ -38,28 +38,28 @@ function Game() {
 
   return (
     <div>
-      <div className="status">{status}</div>
-      <div className="game">
+      <div className="status d-flex justify-content-center">{status}</div>
       
-      <div className="board-row">
+      <div className="board-row d-flex justify-content-center">
         {renderSquare(0)}
         {renderSquare(1)}
         {renderSquare(2)}
       </div>
 
-      <div className="board-row">
+      <div className="board-row d-flex justify-content-center">
         {renderSquare(3)}
         {renderSquare(4)}
         {renderSquare(5)}
       </div>
 
-      <div className="board-row">
+      <div className="board-row d-flex justify-content-center">
         {renderSquare(6)}
         {renderSquare(7)}
         {renderSquare(8)}
       </div>
-      <Button className="button" variant="info" size="lg" onClick={() => {setSquare(Array(9).fill(null));}} >Restart</Button>
-      <a href="https://github.com/rishabkhanna27"><p className="git">Made By :- Rishab_Khanna</p></a>
+      <div className="game d-flex justify-content-center">
+
+      <Button className="button " variant="info" size="lg" onClick={() => {setSquare(Array(9).fill(null));}} >Restart</Button>
     </div>
     <a href="https://github.com/rishabkhanna27"><p className="gitt">Made By :- Rishab_Khanna</p></a>
     </div>
